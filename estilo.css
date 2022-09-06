@@ -1,0 +1,299 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: linear-gradient(to bottom left,#ce1508,#f9ff00);
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#container a #botao{
+	width: 50px;
+	height: 60px;
+	border-radius: 100px;
+	position: fixed;
+	right: 1%;
+	top: 90%;
+    Opacity:0.5;
+
+
+}
+
+header{
+	width: 100%;
+	height: 18%;
+	background: url(imagens/madeira.jpg);
+	background-size: 30% 110%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+header h1{
+	line-height: 2.1;
+	text-indent: 20px;
+	margin-right: 2%;
+	color:#ce1508 ;
+	background-image: linear-gradient(to bottom left,#ce1508,#f9ff00);
+	background-size: cover;
+	background-position: 25px;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+a{
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+#cabeçalho .inicio,
+#cabeçalho .encomendas,
+#cabeçalho .contato{
+	text-decoration: underline;
+
+}
+
+header a{
+	line-height: 2.6;
+	font-size: 1.5em;
+	color: #f9ff00;
+	margin-right: 20%;
+	text-indent:40%;
+	text-transform: capitalize;
+}
+
+header a:hover{
+	text-decoration: underline;
+}
+
+nav{
+	width: 100%;
+	height: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+nav #fundo-salgados{
+	background: #fff;
+	width: 500px;
+	height: 3%;
+}
+
+section{
+	width: 400px;
+	height: 500px;
+	background: #fff;
+	margin-top: 3%;
+	border-radius: 10px;
+	box-shadow: 5px 10px 10px;
+	flex-grow: 0;
+	order: 0;
+}
+.item1{
+	width: 80%;
+	margin: 3% 5%;
+	order: 3;
+}
+
+.item1 a img{
+ 	width: 100%;
+ 	height: 90%;
+ 	border-radius: 0 0 10px 10px ;
+}
+
+.item2{
+	width: 80%;
+	margin: 3% 5%;
+	order: 2;
+}
+
+.item2 a img{
+ 	width: 100%;
+ 	height: 90%;
+ 	border-radius: 0 0 10px 10px ;
+}
+
+.item3{
+	flex-grow: 1;
+	order: 1;
+	width: 80%;
+	margin: 4% 5%;
+}
+
+.item3 a img{
+ 	width: 100%;
+ 	height: 90%;
+ 	border-radius: 0 0 10px 10px ;
+}
+
+nav section h2{
+	text-align: center;
+	text-transform: capitalize;
+	text-decoration: underline;
+	height: 10%;
+	width: 100%;
+	color:#f9ff00  ;
+	background-image: linear-gradient(to bottom right,#ce1508,#f9ff00);
+	border-radius: 10px 10px 0 0;
+}
+
+#container h4{
+	background: none;
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+}
+
+
+#navegacao-salgados{
+	
+	width: 100%;
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;	
+}
+
+#fundo{
+	background: url(imagens/madeira.jpg);
+	background-size: 30%;
+	margin-top: 5%;
+	border-radius: 10px;
+}
+
+#fundo h1{
+	text-align: center;
+	font-family: Algerian;
+	background-image: linear-gradient(to bottom left,#f9ff00,#ce1508);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+#navegacao-salgados #lista-salgados-fritos{
+	width: 70%;
+	height: 100%;
+	background: #fff url(imagens/madeira1.png);
+	background-size: 100% 110%;
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+
+
+#lista-salgados-fritos a{
+	color: red;
+	text-align: ;
+	margin: 10%;
+	text-transform: capitalize;
+	font-size: 1.6em;
+;
+	
+}
+
+#lista-salgados-fritos a img{
+	border-radius: 10px;
+}
+
+#lista-salgados-fritos h2{
+	text-align: center;
+	width: 100%;
+	font-family: Algerian;
+	color: red;
+}
+
+#lista-salgados-fritos hr{
+	width: 90%;
+	background: red;
+	margin-left: 5%;
+}
+
+#navegacao-salgados #lista-salgados-assados{
+	width: 70%;
+	height: 100%;
+	background: #fff url(imagens/madeira1.png) ;
+	background-size: 100% 110%;
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+
+
+#lista-salgados-assados a{
+	color: red;
+	text-align: ;
+	margin: 10%;
+	text-transform: capitalize;
+	font-size: 1.6em;
+;
+	
+}
+
+#lista-salgados-assados a img{
+	border-radius: 10px;
+}
+
+#lista-salgados-assados h2{
+	text-align: center;
+	width: 100%;
+	font-family: Algerian;
+	color: red;
+}
+
+#lista-salgados-assados hr{
+	width: 90%;
+	background: red;
+	margin-left: 5%;
+}
+
+#contato{
+	width: 90%;
+	height: 80%;
+	background: url(imagens/madeira1.png);
+	background-size: 100% 105%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border-radius: 10px;
+	margin-top: 7%;
+	margin-bottom: 20%;
+	padding-bottom: 5%;
+}
+
+#contato a  {
+	margin-top: 4%;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	color: red;
+	text-align: center;
+}
+
+#contato a  img{
+	width: 60px;
+	height: 60px;
+}
+
+#contato hr{
+	width: 80%;
+	margin-bottom: 3%;
+}
